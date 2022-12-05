@@ -15,9 +15,18 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
+    margin-top: 20px;
 }
 .btn:hover{
     background-color: #0f5353 ;
+}
+.holiday-heading{
+    font-size: 80px;
+    color: gray;
+}
+.holiday-text{
+    font-size: 25px;
+    color: #bfbebe;
 }
 /**
     landing page section
@@ -64,6 +73,8 @@ body{
     text-align: center;
     padding: 10px;
     box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 0;
 }
 .main-nav a{
     color: black;
@@ -77,17 +88,111 @@ body{
     color: white;
     border-radius: 30px;
 }
+/**
+    holiday section
+ */
+.holiday-section{
+    padding: 100px 40px;
+    text-align: center;
+}
 
+/**
+place-to-visit-section
+ */
+.place-to-visit-section{
+    text-align: center;
+}
+.place-to-visit-section .holiday-heading{
+    padding-top: 50px;
+}
+.place-to-visit-section .places-div{
+    margin-top: 20px;
+}
 
+/**
+gallery-section
+ */
+.gallery-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.gallery-section .gallery-div{
+    margin-top: 20px;
+    padding: 20px;
+}
+.gallery-section .gallery-wrapper{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    display: inline-block;
+    margin: 20px;
+}
+.gallery-section .gallery-wrapper img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.gallery-section .gallery-wrapper img:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
+/**
+ packages-section
+ */
+.packages-section{
+    text-align: center;
+    margin-top: 40px;
+}
+.packages-section .holiday-heading{
+    padding-top: 50px;
+}
+.packages-section .package-wrapper{
+    margin-top: 40px;
+    padding: 30px;
+}
+.package-wrapper .package-card{
+   box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.package-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.package-card .card-heading{
+    font-size: 30px;
+}
+.package-card .card-text{
+    font-size: 18px;
+    color: gray;
+}
+.package-card .btn{
+    border-radius: 50px;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    margin-bottom: 10px;
+}
+/**
+    footer-section
+ */
+.footer-section{
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.footer-section a{
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
