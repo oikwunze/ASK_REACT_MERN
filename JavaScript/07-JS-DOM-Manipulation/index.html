@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM</title>
+</head>
+<body>
+
+<h1>Welcome to JavaScript</h1>
+
+<h2 id="msg">Good Evening</h2>
+<button id="change-text-btn">Change Text</button>
+
+<div>
+    <img alt="" height="200" id="food-image"
+         src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000"
+         width="300">
+    <br>
+    <button onclick="changeImage()">change Image</button>
+</div>
+
+<div>
+    <input id="input" type="password">
+    <br>
+    <button id="the-button" onclick="showPassword()">Show Password</button>
+</div>
+
+<button onclick="displayEmployees()">Get Employees</button>
+<table border="2">
+    <thead>
+    <tr>
+        <th>SNO</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>Designation</th>
+    </tr>
+    </thead>
+    <tbody id="table-body">
+
+    </tbody>
+</table>
+
+
+<script src="app.js"></script>
+</body>
+</html>

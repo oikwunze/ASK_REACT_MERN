@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script async src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <title>BS Forms</title>
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card shadow-lg">
+                <div class="card-header bg-warning">
+                    <p class="h3">Registration</p>
+                </div>
+                <div class="card-body bg-light">
+                    <form id="register-form">
+                        <div class="mb-2">
+                            <input class="form-control" id="username" placeholder="Username" type="text">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" id="email" placeholder="Email" type="email">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" id="password" placeholder="Password" type="password">
+                        </div>
+                        <div class="mb-2">
+                            <select class="form-control" id="designation">
+                                <option value="">Select Designation</option>
+                                <option value="Software Engineer">Software Engineer</option>
+                                <option value="Sr.Software Engineer">Sr.Software Engineer</option>
+                                <option value="Tech Lead">Tech Lead</option>
+                                <option value="Manager">Manager</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-check-label">Gender</label>
+                            <input class="form-check-input" name="gender" type="radio" value="Male">
+                            <label class="form-check-label">Male</label>
+                            <input class="form-check-input" name="gender" type="radio" value="Female">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                        <div class="mb-2">
+                            <textarea class="form-control" id="bio" placeholder="Bio" rows="3"></textarea>
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-check-input" id="terms" type="checkbox">
+                            <label class="form-check-label">Accepts Terms & Conditions</label>
+                        </div>
+                        <div class="mb-2">
+                            <input class="btn btn-warning" type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
