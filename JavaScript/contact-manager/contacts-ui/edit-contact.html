@@ -53,33 +53,28 @@
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <form>
+                <form id="edit-contact-form">
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Name" type="text">
+                        <input class="form-control" id="name-input" placeholder="Name" required type="text">
                     </div>
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Photo Url" type="text">
+                        <input class="form-control" id="image-input" placeholder="Image Url" required type="text">
                     </div>
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Mobile" type="number">
+                        <input class="form-control" id="mobile-input" placeholder="Mobile" required type="number">
                     </div>
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Email" type="email">
+                        <input class="form-control" id="email-input" placeholder="Email" required type="email">
                     </div>
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Company" type="text">
+                        <input class="form-control" id="company-input" placeholder="Company" required type="text">
                     </div>
                     <div class="mb-2">
-                        <input class="form-control" placeholder="Title" type="text">
+                        <input class="form-control" id="title-input" placeholder="Title" required type="text">
                     </div>
                     <div class="mb-2">
-                        <select class="form-control">
-                            <option value="">Select a Group</option>
-                            <option value="">Family</option>
-                            <option value="">Colleague</option>
-                            <option value="">Friend</option>
-                            <option value="">Social</option>
-                            <option value="">Service</option>
+                        <select class="form-control" id="group-select-input" required>
+
                         </select>
                     </div>
                     <div class="mb-2">
@@ -89,13 +84,14 @@
                 </form>
             </div>
             <div class="col-sm-3">
-                <img alt="" class="img-fluid"
-                     src="https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png"">
+                <img alt="" class="img-fluid" id="display-image"
+                     src="">
             </div>
         </div>
     </div>
 </section>
 
-
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/edit-contact.js" type="module"></script>
 </body>
 </html>
