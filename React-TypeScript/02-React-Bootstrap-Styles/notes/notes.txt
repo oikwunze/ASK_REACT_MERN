@@ -1,0 +1,10 @@
+configure bootstrap to React JS
+---------------------------------
+-> install bootstrap
+   -> npm install bootstrap@5.2.3
+   -> npm install bootstrap-icons
+   
+-> configure the bootstrap files "index.tsx" file 
+	import "../node_modules/bootstrap/dist/css/bootstrap.css";
+	import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+	import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
